@@ -1,0 +1,69 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  background-color: #e1e1e1;
+
+  .side-menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 74px;
+    background-color: #e67f19;
+    h3 {
+      color: #fff;
+      font-size: 42px;
+    }
+  }
+
+  .salutation {
+    color: #0080ff;
+    font-size: 35px;
+    margin-top: 37px;
+  }
+  .box-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+    height: 600px;
+    margin-top: 38px;
+    background-color: #d1d1d1;
+    border-radius: 5px;
+
+    .title-form {
+      color: #0080ff;
+      font-size: 28px;
+      margin-top: 35px;
+    }
+    .line {
+      width: 100%;
+      margin-top: 22px;
+      border: 1px solid #0080ff;
+    }
+    .form-group {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+      margin-top: 43px;
+
+      .input-payment {
+        margin-top: 44px;
+        width: 267px;
+        height: 38px;
+        border: 2px solid #0080ff;
+        border-radius: 5px;
+        background-color: #e6801973;
+      }
+      .btn-form-payment {
+        margin-top: 74px;
+      }
+    }
+  }
+}
